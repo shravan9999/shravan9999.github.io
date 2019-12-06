@@ -1,0 +1,216 @@
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+    font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+    font-weight: 400;
+		color: #fff;
+		margin:0;
+  }
+
+  p{
+    font-size: 26px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: #fff;
+    margin:0;
+  }
+
+  .dark h1 {
+    color: black;
+  }
+
+  .socials {
+    text-align: left !important;
+    padding: 0vh 30vw;
+  }
+
+  .social_header {
+    padding-bottom: 1.5rem;
+  }
+
+  .socials h1:not(.social_header) {
+    padding-bottom: 1.2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-weight: 600;
+  }
+
+  .dark a {
+    color: rgba(0,0,0,0.3) !important;
+  }
+
+  a:hover, a:active {
+    color: rgba(0,0,0,0.5) !important;
+  }
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+    text-align:center;
+    padding: 0px 10vw;
+	}
+
+  .container{
+  width: 60%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+
+#section1{
+font-family: 'Roboto Mono', monospace;
+list-style: none;
+padding: 0;
+color: white;
+}
+
+#section1 li{
+  margin: 20px 0;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.Python{
+  width: 90%;
+  animation: Python 2s;
+
+}
+
+.Django{
+width: 65%;
+animation: Django 2s;
+
+}
+
+.Mern{
+  width: 50%;
+  animation: Mern 2s;
+
+}
+
+.html{
+  width: 90%;
+  animation: html 2s;
+
+}
+
+
+.MachineLearning{
+  width: 50%;
+  animation: MachineLearning 2s;
+
+}
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes Python{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes Django{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+@keyframes Mern{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+
+@keyframes MachineLearning{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+
+
+.box{
+  background-color: #333333;
+    width: 850px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#section2{
+font-family: 'Roboto Mono', monospace;
+list-style: none;
+font-size: 35px;
+font-weight: 80pt;
+padding: 0;
+color: black;
+}
+
+#section3{
+font-family: 'Roboto Mono', monospace;
+list-style: none;
+font-size: 35px;
+font-weight: 200pt;
+padding: 0;
+color: black;
+}
